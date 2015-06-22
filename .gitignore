@@ -1,3 +1,7 @@
+# Ignore build dirs
+public
+artifacts
+
 # Logs
 logs
 *.log
