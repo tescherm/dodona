@@ -2,6 +2,9 @@
 public
 artifacts
 
+# Ignore IDE files
+.idea
+
 # Logs
 logs
 *.log
