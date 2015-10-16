@@ -19,6 +19,8 @@ This interaction beteween these services is illustrated by the following diagram
 
 ## Installation
 
+Note that dodona only works on node **v0.10.*** at the moment.
+
 Run ```npm install``` to download dependencies:
 
 ```bash
