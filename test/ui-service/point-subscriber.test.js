@@ -13,7 +13,6 @@ var server = new PublisherServer({
 })
 
 describe('point subscriber tests', function () {
-
   before(function () {
     return Promise.all([server.start(), subscriber.start()])
   })

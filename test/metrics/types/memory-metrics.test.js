@@ -4,7 +4,6 @@ var expect = require('chai').expect
 var MemoryMetrics = require('../../../metrics/types/memory-metrics')
 
 describe('load metrics', function () {
-
   it('can collect metrics', function () {
     var metrics = new MemoryMetrics()
     var res = metrics.get()

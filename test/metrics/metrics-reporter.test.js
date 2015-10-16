@@ -4,7 +4,6 @@ var expect = require('chai').expect
 var MetricsReporter = require('../../metrics/metrics-reporter')
 
 describe('metrics reporter', function () {
-
   it('can report metrics', function (done) {
     var mockClient = {
       send: function (points) {

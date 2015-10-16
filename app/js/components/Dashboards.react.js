@@ -70,7 +70,7 @@ var Dashboards = React.createClass({
 
   render: function () {
     return (
-      <Grid fluid={true}>
+      <Grid fluid>
         {this._renderContent()}
       </Grid>
     )

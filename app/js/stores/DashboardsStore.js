@@ -11,7 +11,6 @@ var _loading = false
 var _error = null
 
 var DashboardStore = _.extend({}, EventEmitter.prototype, {
-
   isLoading: function () {
     return _loading
   },
@@ -40,7 +39,6 @@ var DashboardStore = _.extend({}, EventEmitter.prototype, {
 })
 
 Dispatcher.register(function (action) {
-
   switch (action.actionType) {
     case Dashboards.LOADING:
       _loading = true

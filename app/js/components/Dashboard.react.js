@@ -21,7 +21,7 @@ var Dashboard = React.createClass({
     var row_views = this._row_views()
 
     return (
-      <Grid fluid={true}>
+      <Grid fluid>
         {row_views}
       </Grid>
     )

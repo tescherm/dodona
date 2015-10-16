@@ -4,7 +4,6 @@ var expect = require('chai').expect
 var DiskMetrics = require('../../../metrics/types/disk-metrics')
 
 describe('disk metrics', function () {
-
   it('can collect metrics', function () {
     var metrics = new DiskMetrics()
     return metrics.get().then(function (res) {

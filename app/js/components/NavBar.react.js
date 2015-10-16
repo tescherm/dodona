@@ -11,7 +11,7 @@ var NavBar = React.createClass({
 
   render: function () {
     return (
-      <Navbar fluid={true} brand='Dodona'>
+      <Navbar fluid brand='Dodona'>
         <Nav/>
       </Navbar>
     )

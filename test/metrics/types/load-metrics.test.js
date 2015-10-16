@@ -4,7 +4,6 @@ var expect = require('chai').expect
 var LoadMetrics = require('../../../metrics/types/load-metrics')
 
 describe('load metrics', function () {
-
   it('can collect metrics', function () {
     var metrics = new LoadMetrics()
     var res = metrics.get()

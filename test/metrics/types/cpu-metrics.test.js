@@ -4,7 +4,6 @@ var expect = require('chai').expect
 var CpuMetrics = require('../../../metrics/types/cpu-metrics')
 
 describe('cpu metrics', function () {
-
   it('can collect metrics', function () {
     var metrics = new CpuMetrics()
     var res = metrics.get()
